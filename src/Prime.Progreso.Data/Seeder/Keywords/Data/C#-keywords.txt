@@ -1,0 +1,111 @@
+abstract: Used to declare an abstract class or method.
+as: Used for type casting and type checking. : Used in query expressions to create a range variable.
+base: Used to access members of the base class in a derived class. : Used to call an overridden method from the base class.
+bool: Represents a Boolean (true or false) value.
+break: Used to exit a loop or switch statement.
+byte: Represents an 8-bit signed integer.
+case: Used in a switch statement to define different cases.
+catch: Catches and handles exceptions in a try-catch block.
+char: Represents a Unicode character.
+checked: Used to enable overflow checking for integral-type arithmetic operations.
+class: Defines a class.
+const: Declares a compile-time constant. : Used to initialize constant fields in interfaces.
+continue: Used to skip the current iteration of a loop.
+decimal: Represents a decimal floating-point number.
+default: Used in a switch statement to define a default case. : Used in nullable value types to specify the default value.
+delegate: Used to declare a delegate, representing a reference to a method. : Used to declare anonymous methods.
+do: Introduces a do-while loop.
+double: Represents a double-precision floating-point number.
+else: Defines the alternative block of code in an if-else statement.
+enum: Declares an enumeration, a set of named constant values with underlying integral numeric type.
+event: Used to declare an event, allowing objects to subscribe to and receive notifications. : Used in event accessors to add or remove event handlers.
+explicit: Used in operator declarations to define explicit user-defined conversions.
+extern: Declares an external method implemented outside C#.
+false: Represents the Boolean value false.
+finally: Defines a block of code that will be executed after a try-catch block.
+fixed: The statement prevents the garbage collector from relocating a moveable variable and declares a pointer to that variable. The address of a fixed, or pinned, variable doesn't change during execution of the statement.
+float: Represents a single-precision floating-point number.
+for: Introduces a loop that iterates while a condition is true.
+foreach: Introduces a loop to iterate over elements in a collection.
+goto: Transfers control to a labeled statement.
+if: Defines a conditional statement.
+implicit: Used in operator declarations to define implicit user-defined conversions. : Used in type inference to specify that a local variable's type can be inferred.
+in: Used in foreach loops to iterate over elements in a collection.
+int: Represents a signed integer.
+interface: Declares an interface, a contract for classes that implement it. : It may define a default implementation for members. :  It may also define static members in order to provide a single implementation for common functionality.
+internal: Specifies that a class or member is accessible within its containing assembly.
+is: Used for type checking and type casting. : Used in pattern matching to check if an expression matches a pattern.
+lock: Acquires the mutual-exclusion lock for a given object, executes a statement block, and then releases the lock. While a lock is held, the thread that holds the lock can again acquire and release the lock. : The statement ensures that at maximum only one thread executes its body at any time moment.
+long: Represents a signed 64-bit integer.
+namespace: Used to declare a scope that contains a set of related objects.
+new: Creates an instance of a class or value type.
+null: A literal that represents a null reference, one that does not refer to any object.
+object: Represents a reference type, from which all types, predefined and user-defined, reference types and value types, inherit directly or indirectly.
+operator: Used to declare a custom operator for user-defined types. : Used to overload operators for custom types, enabling custom behavior.
+out: A parameter modifier, which lets you pass an argument to a method by reference rather than by value. : Used in generic type parameter declarations for interfaces and delegates, which specifies that a type parameter is covariant. : Used in methods to return multiple values as out parameters.
+override: Indicates that a method overrides a a virtual or abstract method method, derived from a base class.
+params: Specifies a method parameter that takes a variable number of arguments. The parameter type must be a single-dimensional array.
+private: Specifies that a class or member is accessible only within its containing class.
+protected: Specifies that a class or member is accessible within its containing class and subclasses.
+public: Specifies that a class or member is accessible from any code.
+readonly: Specifies that a field can only be assigned once.
+ref: Used to pass a parameter by reference. : In a declaration of a local variable, to declare a reference variable. : In a method signature, to return a value to the caller by reference.
+return: Exits a method and returns a value to the calling code.
+sbyte: Represents a signed 8-bit integer.
+sealed: Prevents a class from being inherited by other classes.
+short: Represents a signed 16-bit integer.
+sizeof: Returns the size, in bytes, of an unmanaged type.
+stackalloc: Allocates memory on the stack.
+static: Specifies that a class or member belongs to the class itself rather than instances.
+string: Represents a sequence of characters.
+struct: A structure type (or struct type) is a value type that can encapsulate data and related functionality.
+switch: Introduces a switch statement for selecting one of many possible code blocks to execute.
+this: Refers to the current instance of a class. : Used as a modifier of the first parameter of an extension method.
+throw: Throws an exception.
+true: Represents the Boolean value true.
+try: Defines a block of code that may cause an exception and a catch block that handles it.
+typeof: Returns the System.Type object for a specified type.
+uint: Represents an unsigned 32-bit integer.
+ulong: Represents an unsigned 64-bit integer.
+unchecked: Disables overflow checking for integral-type arithmetic operations.
+unsafe: Specifies an unsafe context for using pointers.
+ushort: Represents an unsigned 16-bit integer.
+using: As a statement, defines a scope at the end of which an object is disposed. : As a directive, creates an alias for a namespace or imports types defined in other namespaces.
+virtual: Specifies that a method can be overridden in a derived class. : Used to provide a base implementation that can be overridden by subclasses.
+void: Specifies that a method has no return value.
+volatile: Specifies that a field may be modified by multiple threads. : Used in multithreaded scenarios to ensure visibility of shared variables.
+while: Introduces a loop that iterates while a condition is true.
+add: Used in event accessors to add a handler delegate to an event.
+alias: Used to create an alias for a namespace or a type in a using directive.
+ascending: Used in a query expression to specify ascending order for sorting query results.
+async: Specifies that a method or lambda expression is asynchronous.
+await: Pauses the execution of an asynchronous method until the awaited task completes.
+by: Used in group clauses of a query expression to specify a group key.
+descending: Used in a query expression to specify descending order for sorting query results.
+dynamic: Declares an object whose type is not known until runtime. : Used to interact with dynamic objects, enabling late-bound method calls.
+equals: Used in join clauses of a query expression to specify how two sequences are correlated.
+from: Introduces a range variable in a query expression.
+get: Specifies an accessor method for a property or an indexer.
+global: Specifies that a namespace or a type should be resolved at the global namespace level.
+group: Groups elements in a query expression.
+into: Transfers query results into a new range variable.
+init:  The keyword defines an accessor method in a property or indexer. Such a setter assigns a value to the property or the indexer element only during object construction.
+join: Combines elements from two sequences based on a common key.
+let: Introduces a new range variable in a query expression.
+nameof: Used to obtain the simple (unqualified) string name of a variable, type, or member.
+on: Specifies a join clause condition in a query expression.
+orderby: Sorts query results in ascending or descending order.
+partial: Such type definitions allow for the definition of a class, struct, interface, or record to be split into multiple files. : Such method has its signature defined in one part of a partial type, and its implementation defined in another part of the type.
+record: It is a class or struct that provides special syntax and behavior for working with data models.
+remove: Used in event accessors to remove a handler delegate from an event.
+required: This modifier indicates that the field or property it's applied to must be initialized by an object initializer.
+scoped: The contextual keyword restricts the lifetime of a value.
+select: Projects elements of a sequence into a new form in a query expression.
+set: Specifies an accessor method for a property or an indexer.
+unmanaged: You can use the constraint to specify that the type parameter must be a non-nullable unmanaged type.
+value: Represents the value stored in a property or indexer.
+var: Implicitly types a local variable.
+when: Filters elements in a catch clause based on a condition.
+where: The clause is used in a query expression to specify which elements from the data source will be returned in the query expression. : The clause in a generic definition specifies constraints on the types that are used as arguments for type parameters in a generic type, method, delegate, or local function.
+with: Produces a copy of its operand with the specified properties and fields modified.
+yield: Used in an iterator block to provide the next value in a sequence.

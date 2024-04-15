@@ -1,0 +1,49 @@
+abstract: Used to declare an abstract class or method that cannot be instantiated directly.
+assert: Used to test assumptions about the program's behavior.
+boolean: Represents a Boolean (true or false) value.
+break: Used to exit a loop or switch statement.
+byte: Represents an 8-bit signed integer.
+case: Used in a switch statement to define different cases.
+catch: Catches and handles exceptions in a try-catch block.
+char: Represents a single 16-bit Unicode character.
+class: Used to declare a class.
+continue: Used to skip the rest of the current iteration in a loop.
+default: Used in a switch statement to define a default case. : Used with annotations to define default values for annotation members.
+do: Introduces a do-while loop.
+double: Represents a double-precision floating-point number.
+else: Defines the alternative block of code in an if-else statement.
+enum: Declares an enumeration, which is a set of named constant values.
+extends: Indicates the superclass that a class extends.
+final: Used to declare a final class, method, or variable. : Used with methods to prevent them from being overridden in subclasses.
+finally: Defines a block of code that will be executed after a try-catch block.
+float: Represents a single-precision floating-point number.
+for: Defines a loop that iterates while a condition is true.
+if: Defines a conditional statement.
+implements: Indicates that a class implements an interface.
+import: Imports a package or class to use in the current Java file.
+instanceof: Tests if an object is an instance of a particular class. : Used to perform type checking and conditional behavior.
+int: Represents a 32-bit signed integer.
+interface: Declares an interface, which defines a contract for classes to implement.
+long: Represents a 64-bit signed integer.
+native: Indicates that a method is implemented in platform-dependent code (usually C or C++).
+new: Creates an instance of a class or array.
+null: This indicates that a reference does not refer to anything.
+package: Declares a package, which is a namespace for organizing classes.
+private: An access specifier indicating that a method or variable may be accessed only in the class it’s declared in.
+protected: An access specifier indicating that a method or variable may only be accessed in the class it’s declared in (or a subclass of the class it’s declared in or other classes in the same package).
+public: An access specifier used for classes, interfaces, methods, and variables indicating that an item is accessible throughout the application (or where the class that defines it is accessible).
+return: Exits a method and optionally returns a value.
+short: Represents a 16-bit signed integer.
+static: Specifies that a member belongs to the type itself, rather than to a specific instance. : Used to create utility methods that don't require instance creation.
+strictfp: Used to restrict the precision and rounding of floating-point calculations to ensure portability.
+super: Refers to the superclass or parent class in a derived class. : Used to call the constructor of the superclass in the constructor of the subclass.
+switch: Defines a switch statement for selecting one of many possible code blocks to execute.
+synchronized: Used to manage thread synchronization. : Used to control access to shared resources in multithreaded environments.
+this: Refers to the current instance of the class. : Used to distinguish between instance variables and method parameters.
+throw: Throws an exception.
+throws: Declares exceptions that a method might throw.
+transient: Indicates that a field should not be serialized.
+try: Defines a block of code that may cause an exception and a catch block that handles it.
+void: Specifies that a method does not return a value.
+volatile: Indicates that a field might be modified by multiple threads. : Used to ensure consistent memory visibility in multithreaded scenarios.
+while: Defines a loop that iterates while a condition is true.

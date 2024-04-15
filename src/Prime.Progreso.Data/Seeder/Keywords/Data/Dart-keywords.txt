@@ -1,0 +1,65 @@
+abstract: Used to declare an abstract class or method that cannot be instantiated directly.
+as: Used for type casting or specifying a library prefix. : Used in "is" checks to combine type checking and type casting.
+assert: Used to test assumptions about the program's behavior.
+async: Marks a function as asynchronous, allowing the use of the 'await' keyword.
+await: Pauses the execution of an async function until the awaited Future is complete. : Used with "for ... await" to asynchronously iterate over a collection of Futures.
+break: Used to exit a loop or switch statement.
+case: Used in a switch statement to define different cases.
+catch: Catches and handles exceptions in a try-catch block.
+class: Used to declare a class.
+const: Declares a compile-time constant value.
+continue: Used to skip the rest of the current iteration in a loop. : Used with labels to control the loop flow in nested loops.
+covariant: Indicates that the annotated member can be overridden by subclasses with more specific types.
+default: Used in a switch statement to define a default case. : Used with named parameters in function calls to specify default values.
+deferred: Marks a library as lazily loaded.
+do: Introduces a do-while loop.
+dynamic: Represents a type that's determined at runtime. : Used with the "mirror" library to perform dynamic reflection.
+else: Defines the alternative block of code in an if-else statement.
+enum: Declares an enumeration, which is a set of named constant values.
+export: Exports symbols from a library to make them accessible to other libraries.
+extends: Indicates the superclass that a class extends.
+extension: Defines an extension method to add functionality to existing classes.
+external: Declares a member that's implemented in native code (JavaScript or another language).
+factory: Creates objects in a manner that's more flexible than a normal constructor. : Used to provide alternative ways of creating objects within a class.
+false: Represents the Boolean value false.
+final: Declares an object or variable that cannot be modified after it's initialized.
+finally: Defines a block of code that will be executed after a try-catch block.
+for: Defines a loop that iterates while a condition is true.
+Function: Represents the 'Function' type.
+get: Declares a getter method for a class property.
+if: Defines a conditional statement.
+implements: Indicates that a class implements an interface.
+import: Imports symbols from another library for use in the current library.
+in: Checks if a value exists in a collection.
+is: Tests if an object is an instance of a particular type. :  Used in "as" expressions to perform type casting.
+late: Marks a variable as being initialized after its declaration.
+library: Declares a library and its scope.
+mixin: Defines a mixin, which is a way to reuse a class's code in multiple class hierarchies.
+new: Creates an instance of a class.
+null: Represents a null value.
+on: Used in a catch clause to specify exception types that can be caught.
+operator: Declares a custom operator method for a class. : Used to overload existing operators for custom types.
+part: Specifies a part of a multi-part library. : Used to split code into multiple files for organization.
+rethrow: Re-throws an exception that was caught in a try-catch block. : Used to propagate an exception to an outer catch block.
+return: Exits a function and optionally returns a value.
+set: Declares a setter method for a class property.
+show: Specifies which symbols from a library are imported and made accessible.
+static: Declares a class member as belonging to the class itself, not instances.
+super: Refers to the superclass or parent class.
+switch: Defines a switch statement for selecting one of many possible code blocks to execute.
+sync: Marks a function as synchronous.
+this: Refers to the current instance of the class.
+throw: Throws an exception.
+true: Represents the Boolean value true.
+try: Defines a block of code that may cause an exception and a catch block that handles it.
+typedef: Declares a function type alias. : Used to define custom function types.
+var: Declares a variable with dynamic type.
+void: Specifies that a function does not return a value.
+while: Defines a loop that iterates while a condition is true.
+with: Used to apply mixin behavior to a class. : Used to combine behavior from mixins and classes.
+yield: Pauses the execution of a generator function and yields a value to the caller.
+bool: Represents a Boolean value.
+double: Represents a double-precision floating-point number.
+int: Represents an integer.
+num: Represents a number (can be either an integer or a double).
+String: Represents a sequence of characters.

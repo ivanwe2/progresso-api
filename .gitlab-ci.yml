@@ -1,0 +1,46 @@
+image: docker:20.10.17
+
+services:
+  - docker:20.10.17-dind
+
+stages:
+  - build-source
+  - build-image
+  - deploy
+
+build-source:
+  stage: build-source
+  tags:
+    - progreso
+  script:
+    - docker build .
+  rules:
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "develop"'
+    - if: '$CI_COMMIT_BRANCH == "develop"'
+
+build-image:
+  stage: build-image
+  tags:
+    - progreso
+  variables:
+    IMAGE_FULL_NAME: $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA
+    IMAGE_LATEST_NAME: $CI_REGISTRY_IMAGE:latest
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build -t $IMAGE_FULL_NAME -t $CI_REGISTRY_IMAGE:latest .
+    - docker push $IMAGE_FULL_NAME
+    - docker push $IMAGE_LATEST_NAME
+  only:
+    - develop
+
+deploy:
+  stage: deploy
+  tags:
+    - progreso
+  only:
+    - develop
+  before_script:
+    - chmod 400 $SERVER_PRIVATE_SSH_KEY
+  script:
+    - apk upgrade && apk update && apk add openssh-client
+    - ssh -o StrictHostKeyChecking=no -i $SERVER_PRIVATE_SSH_KEY $SERVER_USER@host.docker.internal "cd progreso-devops && git pull && docker compose up -d --force-recreate dotnet-api-dev"

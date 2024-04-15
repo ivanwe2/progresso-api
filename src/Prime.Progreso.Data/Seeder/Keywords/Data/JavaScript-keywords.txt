@@ -1,0 +1,42 @@
+arguments: An array-like object accessible within function bodies that contains the values of the arguments passed to the function.
+await: Used in asynchronous functions to pause execution until a Promise is resolved or rejected.
+boolean: A primitive data type representing a binary choice, either true or false.
+break: Used to exit the current loop or switch statement prematurely.
+case: Defines a branch in a switch statement that is executed when a specific value matches.
+catch: Catches and handles exceptions in try-catch blocks.
+class: Defines a class, providing a blueprint for creating objects with shared properties and behaviors. : Used with "extends" to indicate inheritance and define subclasses.
+const: Declares a constant variable that cannot be reassigned after initialization.
+continue: Jumps to the next iteration of a loop, skipping the remaining code in the current iteration.
+debugger: Stops the execution of JavaScript code and invokes any available debugging features.
+default: Specifies the default case in a switch statement that is executed when no other case matches.
+delete: Removes a property from an object or an element from an array.
+do: Introduces a loop that executes a block of code repeatedly while a specific condition is true.
+else: Defines an alternative block of code to be executed if a specific condition is false.
+eval: A function that evaluates a string as JavaScript code, potentially creating security vulnerabilities.
+export: Marks variables, functions, or objects to be exported and made available for use in other files or modules.
+extends: Specifies that a class is derived from another class, inheriting its properties and methods.
+false: Represents the Boolean value false.
+finally: Specifies a block of code that will be executed after a try-catch block, regardless of whether an exception is thrown.
+for: Introduces a loop that iterates through a sequence of values while a specific condition is true.
+function: Declares a function, a reusable block of code that can be called and executed. :  Used to define named or anonymous functions for various purposes.
+if: Introduces a conditional statement that executes a block of code if a specific condition is true.
+import: Allows the inclusion of external JavaScript files or modules for use in the current file.
+in: Checks if a specific property is in an object or if a value is within an array.
+instanceof: Checks if an object is an instance of a specific class or constructor.
+let: Declares a block-scoped variable that can be reassigned after initialization.
+new: Creates an instance of an object or invokes a constructor function to create a new object.
+null: Represents the absence of any value or object. : Used to indicate that a variable points to nothing.
+return: Specifies the value to be returned from a function.
+static: Specifies that a variable or method belongs to a class rather than an instance.
+super: Calls the constructor or methods of a parent class from within a subclass.
+switch: Introduces a conditional statement that tests a specific value against multiple cases and executes the corresponding block of code.
+this: Refers to the current object or context in which code is being executed.
+throw: Generates an exception, typically used to signal that an error or unexpected condition has occurred.
+true: Represents the Boolean value true.
+try: Introduces a block of code that is tested for exceptions. If an exception occurs, it's caught and handled in a catch block.
+typeof: Returns a string indicating the data type of an expression.
+var: Declares a variable, which can be assigned a value and changed later in the code.
+void: Specifies that a function does not return a value.
+while: Introduces a loop that executes a block of code while a specific condition is true.
+with: Specifies the scope of an object, allowing easier access to its properties and methods.
+yield: Used in generator functions to pause and resume the execution of the function. : Used in generator functions to yield a value to the caller.
